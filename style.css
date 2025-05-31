@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "SoDo Sans", sans-serif;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 40px;
+}
+
+#starbucks-logo-img {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+  padding: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+#hamburger-menu-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.background-image-1 {
+  width: 100%;
+  height: auto;
+
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 3rem;
+}
+
+#background-image-truth {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.advertisement-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.advertisement-2 h2
+ {
+  font-weight: 50;
+  font-size: 30px;
+}
+
+.advertisement-2 h4
+ {
+  font-weight: 50;
+  font-size: 30px;
+}
+
+.advertisement-2 button {
+  background-color: #00704a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.advertisement-2 button:hover {
+  background-color: #005f3a;
+}
+
+.advertisement-2 button:active {
+  background-color: #408767;
+}
+
+.img-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.first-row {
+ 
+  height: 100%;
+  width:50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.first-row img {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+}
+
+.second-row {
+
+  height: auto;
+width: 50%;
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+}
+
+.second-row img {
+  width: 45%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.third-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 40px;
+  background-color: rgb(21, 62, 32);
+}
+
+.third-section h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 50;
+}
+
+.third-section h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 50;
+}
+
+.third-section button {
+  background-color: #00704a;
+  margin-left: 10px;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+}
+
+.third-section button:hover {
+  background-color: #005f3a;
+}
+
+.third-section button:active {
+  background-color: #408767;
+}
